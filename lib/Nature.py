@@ -33,10 +33,7 @@ def volcano(mc,x,y,z):
     for i in range(16):
         mc.setBlocks(x+1+i,y+i,z+1+i,x+31-i,y+i,z+31-i,1)
     mc.setBlock(x+16,y+16,z+16,10)
-    for i in range(10):
-        mc.setBlocks(x+1+i,y,z+1+i,x+31-i,y,z+31-i,1)
-
-
+ 
 def forrest(mc,x,y,z):
     for i in range (0,15,3):
         for j in range (0,15,3):
