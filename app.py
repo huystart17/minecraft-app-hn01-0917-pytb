@@ -9,4 +9,4 @@ mc.postToChat("hello")
 pl = Player.MinePLayer(mc,"123")
 x,y,z = pl.getPos()
 
-Nature.waterfall(mc,x,y,z)
+Nature.island(mc,x,y,z)
