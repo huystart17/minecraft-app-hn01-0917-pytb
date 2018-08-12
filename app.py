@@ -9,5 +9,4 @@ mc.postToChat("hello")
 pl = Player.MinePLayer(mc,"123")
 x,y,z = pl.getPos()
 
-Nature.forrest(mc,x,y,z)
-
+Nature.volcano(mc,x,y,z)
