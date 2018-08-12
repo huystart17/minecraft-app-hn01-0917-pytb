@@ -40,3 +40,8 @@ def forrest(mc,x,y,z):
     for i in range (0,15,5):
         for j in range (0,15,5):
             tree(mc,x-5+ i,y,z -5 +j,)
+
+def waterfall(mc,x,y,z):
+    mc.setBlocks(x-10,y-1,z-3,x+10,y+20,z,2)
+    mc.setBlocks(x-5,y+20,z-3,x+5,z+20,z-3,8)
+
