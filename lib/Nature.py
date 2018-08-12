@@ -1,3 +1,5 @@
+import random
+
 def tree(mc,x,y,z):
     mc.setBlocks(x+2,y,z,x+2,y+4,z,17)
 <<<<<<< HEAD
