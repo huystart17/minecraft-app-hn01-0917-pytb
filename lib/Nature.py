@@ -45,3 +45,6 @@ def waterfall(mc,x,y,z):
     mc.setBlocks(x-10,y-1,z-3,x+10,y+20,z,2)
     mc.setBlocks(x-5,y+20,z-3,x+5,z+20,z-3,8)
 
+def island (mc,x,y,z):
+    mc.setBlocks(x,y,z ,x+10 ,y-2,z+10 ,7)
+    mc.setBlock(x+5,y-1,z+ 5, x+6, y,z+ 6 ,1)
