@@ -21,11 +21,11 @@ def treeKien(mc,x,y,z):
     mc.setBlocks(x+2,y,z+2,x+2,y+4,z+2,17)
 def lake(mc,x,y,z):
     mc.setBlocks(x,y,z,x+20,y+15,z+20,2)
-    mc.setBlocks(x+12,y+10,z+4,x+8,y+10,z+4,8)
-    mc.setBlocks(x+13,y+10,z+5,x+7,y+10,z+5,8)
-    mc.setBlocks(x+14,y+10,z+6,x+6,y+10,z+6,8)
-    mc.setBlocks(x+15,y+10,z+7,x+5,y+10,z+7,8)
-    mc.setBlocks(x+16,y+10,z+8,x+4,y+10,z+8,8)
+    mc.setBlocks(x+12,y+15,z+4,x+8,y+15,z+4,8)
+    mc.setBlocks(x+13,y+15,z+5,x+7,y+15,z+5,8)
+    mc.setBlocks(x+14,y+15,z+6,x+6,y+15,z+6,8)
+    mc.setBlocks(x+15,y+15,z+7,x+5,y+15,z+7,8)
+    mc.setBlocks(x+16,y+15,z+8,x+4,y+15,z+8,8)
     
 
 
