@@ -1,8 +1,8 @@
-# hello đến với dự án
+# hello đến với dự án minecraft build - app 
 
-<<<<<<< HEAD
-# Đây là code mẫu 4
-=======
-# Đây là code mẫu 1
-# ha da sua file nay 
->>>>>>> fbeec91e5cea1e6ea7e381416cb04a2411ab9cdf
+Yêu cầu cài visual studio code https://code.visualstudio.com/ ,và git https://git-scm.com/
+
+Sau khi cài xong các bạn mở *visual studio code* 
+Bấm tổ hợp "ctr" + "Shift" + "p" 
+Sau đó gõ "git clone"
+Sau đó đồng ý và lưu dự án về

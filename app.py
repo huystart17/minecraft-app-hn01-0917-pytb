@@ -8,7 +8,6 @@ mc =minecraft.Minecraft.create("10.15.0.75")
 mc.postToChat("hello")
 pl = Player.MinePLayer(mc,"123")
 x,y,z = pl.getPos()
-pl.setPos(100,100,100)
-Goods.bed(mc,x,y,z)
-Goods.table(mc,x,y,z)
-#Nature.lake(mc,x,y,z)
+
+Nature.volcano(mc,x,y,z)
+

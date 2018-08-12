@@ -31,5 +31,4 @@ def lake(mc,x,y,z):
 
 
 def volcano(mc,x,y,z):
-    for i in range(10):
-        mc.setBlocks(x+1+i,y,z+1+i,x+31-i,y,z+31-i,1)
+        mc.setBlocks(x+1+i,y+i,z+1+i,x+31-i,y+i,z+31-i,1)
