@@ -22,7 +22,7 @@ def treeKien(mc,x,y,z):
 def lake(mc,x,y,z):
 #Dirt
     mc.setBlocks(x,y+10,z,x+20,y+10,z+20,2)
-    mc.setBlocks(x,y+11,z,x+2,y+11,z+)
+    mc.setBlocks(x,y+11,z,x+2,y+11,z+21)
     mc.setBlocks(x,y,z,x+20,y+9,z+20,3)
 #Water
     mc.setBlocks(x+12,y+10,z+4,x+8,y+10,z+4,8)
@@ -47,3 +47,5 @@ def forrest(mc,x,y,z):
 def island (mc,x,y,z):
     mc.setBlocks(x,y,z ,x+10 ,y-2,z+10 ,7)
     mc.setBlock(x+5,y-1,z+ 5, x+6, y,z+ 6 ,1)
+
+#fix lỗi
