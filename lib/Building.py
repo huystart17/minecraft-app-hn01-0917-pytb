@@ -135,3 +135,40 @@ class Building():
         mc.setBlocks(x,y+1,z+5,x,y+1,z+5,64,8)
 
         mc.setBlocks(x,y,z+5,x,y,z+5,64)
+
+
+def bao_house(mc,x,y,z):
+        
+
+        #1
+
+        mc.setBlocks(x,y-1,z,x+10,y+5,z+10,155)
+
+        mc.setBlocks(x+1,y,z+1,x+9,y+4,z+9,0)
+        mc.setBlocks(x+4,y+5,z+4,x+6,y+5,z+6,169)
+
+
+
+
+        #ban cong
+
+        mc.setBlocks(x,y+6,z,x,y+6,z+10,113)
+
+
+        #thang
+        # mc.setBlocks(x+9,y,z+4,x+9,y+5,z+4,49)
+        mc.setBlocks(x+9,y,z+5,x+9,y+5,z+5,65)
+        mc.setBlocks(x+9,y,z+6,x+9,y+5,z+6,49)
+
+
+
+
+
+
+        #cua
+
+        mc.setBlocks(x,y,z+5,x,y+1,z+5,0)
+
+        mc.setBlocks(x,y+1,z+5,x,y+1,z+5,64,8)
+
+        mc.setBlocks(x,y,z+5,x,y,z+5,64)

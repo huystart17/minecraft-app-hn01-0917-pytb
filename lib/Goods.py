@@ -18,3 +18,4 @@ def Furnace(mc,x,y,z):
 def table(mc,x,y,z):
     mc.setBlocks(x,y+1,z,x,y+1,z,72)
     mc.setBlocks(x,y,z,x,y,z,85)
+

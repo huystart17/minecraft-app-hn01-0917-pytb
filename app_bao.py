@@ -10,8 +10,8 @@ pl = Player.MinePLayer(mc,"gg")
 # pl.setPos(100,200,100)
 x,y,z = pl.getPos()
 
-# Nature.volcano(mc,x,y,z)  
-# bd = Building.Building(mc,x,y,z)
-# bd.small_house()
+Nature.volcano(mc,x,y,z)  
+bd = Building.Building(mc,x,y,z)
+bd.small_house()
 
 Goods.door(mc,x,y,z)
