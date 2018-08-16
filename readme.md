@@ -26,6 +26,6 @@ root
 -- -- ....
 -- mcpi 
 ```
-## Thư viện này giúp các bạn tạo công trình nhanh hơn xịn hơn
-## Th
-## THư viện này giúp bạn có thể quản lý thông tin, sự kiện diễn ra trong game
+### Thư viện này giúp các bạn tạo công trình nhanh hơn xịn hơn
+### Thư viện giúp lấy các vị trí toạ độ khu vực trong minecraft tại các toạ độ tương đối
+### THư viện này giúp bạn có thể quản lý thông tin, sự kiện diễn ra trong game
