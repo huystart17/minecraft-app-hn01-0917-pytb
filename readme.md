@@ -50,3 +50,7 @@ A. Công trình phức tạp :
   9. Nhà cực sâu
   10. Nhà bên đường 
   11. Khu phố với nhà 2 bên đường
+B. Hàm hỗ trợ:
+  1. Hàm getCenter (x,y,z, x1,y1,z1) trả về toạ độ chính giữa giữa giữa 2 điểm
+  2. Hàm getDistance(x,y,z, x1,y1,z1) Trả về khoảng cách giữa 2 điểm
+  3. Giả sử có 2 diểm x,y,z và x1,y,z1 nằm trên mặt phẳng, hàm corners sẽ trả về toạ độ của 4 góc dưới dạng mảng
