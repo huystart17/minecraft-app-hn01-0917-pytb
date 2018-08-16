@@ -17,6 +17,7 @@ Sau đó đồng ý và lưu dự án về
 1. mcpi
 
 ## Cấu trúc chương trình
+```
 root 
 -- app.py ....
 -- lib
@@ -24,7 +25,7 @@ root
 -- -- Nature.py
 -- -- ....
 -- mcpi 
-
+```
 ## Thư viện này giúp các bạn tạo công trình nhanh hơn xịn hơn
 ## Th
 ## THư viện này giúp bạn có thể quản lý thông tin, sự kiện diễn ra trong game
