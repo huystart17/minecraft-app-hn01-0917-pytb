@@ -17,7 +17,7 @@ Sau đó đồng ý và lưu dự án về
 1. mcpi
 
 ## Cấu trúc chương trình
-```
+```pre
 root 
 -- app.py ....
 -- lib
