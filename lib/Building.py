@@ -92,7 +92,63 @@ class Building():
 
         mc.setBlocks(x+7,y+1,z+9,x+9,y+3,z+9,47)
 
-    def big_house(self):
+   
+    def big_house(self,block):
+
+        x=self.x
+
+        y=self.y
+
+        z=self.z
+
+        mc =self.mc
+
+        #1
+
+        mc.setBlocks(x,y-1,z,x+7,y+4,z+7,block)
+        mc.setBlocks(x+2,y+2,z,x,y+1,z+4,95,3)#window
+        mc.setBlocks(x+1,y,z+1,x+6,y+3,z+6,0)
+
+
+        #2...
+
+        mc.setBlocks(x,y+4,z,x+7,y+9,z+7,block)
+        mc.setBlocks(x+2,y+6,z,x,y+7,z+4,95,3)#window
+        mc.setBlocks(x+1,y+5,z+1,x+6,y+8,z+6,0)
+
+        
+
+
+        #ban cong
+        mc.setBlocks(x,y+4,z,x-4,y+4,z+7,block)
+        mc.setBlocks(x-4,y+5,z,x-1,y+5,z+7,102)
+        mc.setBlocks(x-3,y+5,z+1,x-1,y+5,z+6,0)
+        mc.setBlocks(x-4,y,z,x-4,y+4,z,block)
+
+
+
+        #cua2
+        mc.setBlocks(x,y+6,z+5,x,y+6,z+5,64,8)
+        mc.setBlocks(x,y+5,z+5,x,y+5,z+5,64)
+
+
+        #cua1
+
+        mc.setBlocks(x,y,z+5,x,y+1,z+5,0)
+
+        mc.setBlocks(x,y+1,z+5,x,y+1,z+5,64,8)
+
+        mc.setBlocks(x,y,z+5,x,y,z+5,64)
+
+        #khác
+
+        mc.setBlocks(x-1,y-1,z+4,x-1,y+8,z+6,block)
+        mc.setBlocks(x-1,y-1,z+5,x-1,y+8,z+5,0)
+        mc.setBlocks(x-1,y+8,z-1,x+8,y+8,z+8,block)
+        mc.setBlocks(x,y+4,z,x-4,y+4,z+7,block)
+
+        #be boi
+        mc.setBlocks(x,y-5,z-5,x-7,y-1,z+2,155)
 
         x=self.x
 
