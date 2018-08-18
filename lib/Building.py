@@ -1,6 +1,5 @@
 class Building():
-
-    def __init__(self,mc,x,y,z):
+  def __init__(self,mc,x,y,z):
 
         self.mc=mc
 
@@ -10,7 +9,7 @@ class Building():
 
         self.z=z
 
-    def small_house(self):
+    def small_house(self,block):
 
         x=self.x
 
@@ -20,7 +19,7 @@ class Building():
 
         mc =self.mc
 
-        mc.setBlocks(x,y-1,z,x+10,y+5,z+10,155)
+        mc.setBlocks(x,y-1,z,x+10,y+5,z+10,block)
 
         mc.setBlocks(x+1,y,z+1,x+9,y+4,z+9,0)
 
@@ -40,7 +39,7 @@ class Building():
 
         mc.setBlocks(x,y,z+5,x,y,z+5,64)
 
-        mc.setBlocks(x-1,y-1,z+5,x-1,y-1,z+5,156)
+        mc.setBlocks(x-1,y-1,z+5,x-1,y-1,z+5,block)
 
         #cua so
 
@@ -92,7 +91,6 @@ class Building():
 
         mc.setBlocks(x+7,y+1,z+9,x+9,y+3,z+9,47)
 
-   
     def big_house(self,block):
 
         x=self.x
@@ -148,52 +146,7 @@ class Building():
         mc.setBlocks(x,y+4,z,x-4,y+4,z+7,block)
 
         #be boi
-        mc.setBlocks(x,y-5,z-5,x-7,y-1,z+2,155)
-
-        x=self.x
-
-        y=self.y
-
-        z=self.z
-
-        mc =self.mc
-
-        #1
-
-        mc.setBlocks(x,y-1,z,x+10,y+5,z+10,155)
-
-        mc.setBlocks(x+1,y,z+1,x+9,y+4,z+9,0)
-
-
-
-        #2...
-
-        mc.setBlocks(x+3,y+6,z,x+10,y+11,z+10,1)
-
-        mc.setBlocks(x+1,y+6,z+1,x+8,y+10,z+9,0)
-
-        #ban cong
-
-        mc.setBlocks(x,y+6,z,x+1,y+6,z+10,85)
-
-
-
-
-
-
-
-
-
-        #cua
-
-        mc.setBlocks(x,y,z+5,x,y+1,z+5,0)
-
-        mc.setBlocks(x,y+1,z+5,x,y+1,z+5,64,8)
-
-        mc.setBlocks(x,y,z+5,x,y,z+5,64)
-
-
-def bao_house(mc,x,y,z):
+        mc.setBlocks(x,y-5,z-5,x-7,y-1,z+2,155)def bao_house(mc,x,y,z):
         
 
         #1
