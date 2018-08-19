@@ -13,5 +13,5 @@ while True:
         if chat.message!='':
             pl=Player.MinePLayer(minecraft_connect=mc,id=chat.entityId)
             x,y,z=pl.getMySight(15)
-            SimpleBuilding.Lhouse(mc,x,y,z+1)
+            SimpleBuilding.Lhouse(mc,x,y,z)
             print(chat)
