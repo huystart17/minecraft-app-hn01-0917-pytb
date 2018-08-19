@@ -229,14 +229,8 @@ def torches(mc, x, y, z):
     mc.setBlocks(x + 3, y + 1, z - 4, x + 3, y + 1, z + 4, 50)
     mc.setBlocks(x + 13, y + 1, z - 4, x + 13, y + 1, z + 4, 50)
 
-
-def shaft(mc, x, y, z):
-    mc.setBlocks(x + 8, y - 1, z, x + 8, y - 10, z, 65, 5)
-    mc.setBlocks(x + 9, y - 9, z, x + 10, y - 10, z, 0)
-
 def temple(mc, x, y, z):
     clear(mc,x,y,z)
     steps(mc,x,y,z)
     pillars(mc,x,y,z)
     torches(mc,x,y,z)
-    shaft(mc,x,y,z)
