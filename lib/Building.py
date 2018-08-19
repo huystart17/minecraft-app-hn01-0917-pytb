@@ -233,4 +233,5 @@ def temple(mc, x, y, z):
     clear(mc,x,y,z)
     steps(mc,x,y,z)
     pillars(mc,x,y,z)
+    top(mc,x,y,z)
     torches(mc,x,y,z)
