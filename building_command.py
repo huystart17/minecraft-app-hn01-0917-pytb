@@ -12,5 +12,5 @@ while True:
         if chat.message!='':
             pl=Player.MinePLayer(minecraft_connect=mc,id=chat.entityId)
             x,y,z=pl.getMySight(10)
-            Building.temple(mc,x,y,z)
+            Nature.island(mc,x,y,z)
             print(chat)
