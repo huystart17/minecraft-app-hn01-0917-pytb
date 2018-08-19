@@ -150,6 +150,7 @@ class Building():
         #be boi
         mc.setBlocks(x,y-5,z-5,x-7,y-1,z+2,155)
 
+
         x=self.x
 
         y=self.y
@@ -215,12 +216,6 @@ def bao_house(mc,x,y,z):
         # mc.setBlocks(x+9,y,z+4,x+9,y+5,z+4,49)
         mc.setBlocks(x+9,y,z+5,x+9,y+5,z+5,65)
         mc.setBlocks(x+9,y,z+6,x+9,y+5,z+6,49)
-
-
-
-
-
-
         #cua
 
         mc.setBlocks(x,y,z+5,x,y+1,z+5,0)
