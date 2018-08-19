@@ -46,6 +46,6 @@ def forrest(mc,x,y,z):
 
 def island (mc,x,y,z):
     mc.setBlocks(x,y,z ,x+10 ,y-2,z+10 ,8)
-    mc.setBlock(x+5,y-1,z+ 5, x+6, y,z+ 6 ,1)
+    mc.setBlocks(x+4,y-1,z+ 5, x+6, y+1,z+ 7 ,1)
 
 #fix lỗi
