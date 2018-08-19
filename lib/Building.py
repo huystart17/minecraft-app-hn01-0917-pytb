@@ -195,7 +195,8 @@ class Building():
 
 
 def bao_house(mc,x,y,z):
-        
+        mc.setBlocks(x,y-5,z-5,x-7,y-1,z+2,155)def bao_house(mc,x,y,z):
+
 
         #1
 
