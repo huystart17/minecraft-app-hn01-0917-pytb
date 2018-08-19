@@ -234,10 +234,9 @@ def shaft(mc, x, y, z):
     mc.setBlocks(x + 8, y - 1, z, x + 8, y - 10, z, 65, 5)
     mc.setBlocks(x + 9, y - 9, z, x + 10, y - 10, z, 0)
 
-
-def room(mc, x, y, z):
-    mc.setBlocks(x + 11, y - 5, z - 5, x + 19, y - 11, z + 5, 57)
-    mc.setBlocks(x + 12, y - 11, z - 4, x + 18, y - 11, z + 4, 169)
-    mc.setBlocks(x + 12, y - 6, z - 4, x + 18, y - 10, z + 4, 0)
-    mc.setBlock(x + 11, y - 10, z, 64, 0)
-    mc.setBlock(x + 11, y - 9, z, 64, 8)
+def temple(mc, x, y, z):
+    clear(mc,x,y,z)
+    steps(mc,x,y,z)
+    pillars(mc,x,y,z)
+    torches(mc,x,y,z)
+    shaft(mc,x,y,z)

@@ -5,5 +5,4 @@ from lib import Goods
 from lib import Nature
 
 mc =minecraft.Minecraft.create('10.15.0.194')
-mc.postToChat("hello")
-pl = Player.MinePLayer(mc,"mai")
+
