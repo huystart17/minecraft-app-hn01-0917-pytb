@@ -54,3 +54,9 @@ B. Hàm hỗ trợ:
   1. Hàm getCenter (x,y,z, x1,y1,z1) trả về toạ độ chính giữa giữa giữa 2 điểm
   2. Hàm getDistance(x,y,z, x1,y1,z1) Trả về khoảng cách giữa 2 điểm
   3. Giả sử có 2 diểm x,y,z và x1,y,z1 nằm trên mặt phẳng, hàm corners sẽ trả về toạ độ của 4 góc dưới dạng mảng
+
+
+## Ứng dụng với các sự kiện
+
+### Tạo game command giúp người chơi có thể tạo công trình nhanh với tên của công trình
+### Tra cứu c
