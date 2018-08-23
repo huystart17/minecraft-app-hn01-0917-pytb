@@ -20,8 +20,8 @@ x= x-5
 z = z-5
 # mc.setBlocks(x+1,y,z,x+1,y+10,z,1)
 # mc.setBlocks(x-1,y,z,x-1,y+10,z,1)
-mc.setBlocks(x,y,z,x,y+10,z-1,1)
+# mc.setBlocks(x,y,z,x,y+10,z-1,1)
 
-mc.setBlocks(x,y,z,x,y+10,z,65,3)
+# mc.setBlocks(x,y,z,x,y+10,z,65,3)
 
 
