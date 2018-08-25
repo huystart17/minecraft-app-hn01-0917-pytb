@@ -11,14 +11,13 @@ mc =minecraft.Minecraft.create()
 mc.postToChat("hello ")
 mc.postToChat("Neu ban tien len 10 buoc nua, thi mot ngoi nha se xuat hien ")
 
-<<<<<<< HEAD
+
 pl = Player.MinePLayer(mc,"gg")
-x_root,y_root,z_root = pl.getPos() 
-=======
+x_root,y_root,z_root = pl.getPos()
 mc =minecraft.Minecraft.create('10.15.0.194')
 mc.postToChat("hello")
 pl = Player.MinePLayer(mc,"mai")
->>>>>>> 57c53a6fd181408c2526471a0063ba7c21d5f28a
+
 # pl.setPos(100,200,100)
 print(pl.id)
 def firecurse ():
@@ -66,7 +65,7 @@ def chatPower():
 
 chatPower() 
 # Nature.volcano(mc,x,y,z)  
-<<<<<<< HEAD
+
 # bd = Building.Building(mc,x,y,z)
 # bd.change_material(40)x
 # bd.small_house()
@@ -79,9 +78,8 @@ chatPower()
 # mc.setBlocks(x,y,z,x,y+10,z-1,1)
 
 # mc.setBlocks(x,y,z,x,y+10,z,65,3)
-=======
-bd = Building.Building(mc,x,y,z)
->>>>>>> 57c53a6fd181408c2526471a0063ba7c21d5f28a
+
+
 
 while True:
            chatEvents = mc.events.pollChatPosts()

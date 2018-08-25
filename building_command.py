@@ -5,7 +5,7 @@ from lib import Goods
 from lib import Nature
 from lib import SimpleBuilding
 
-mc =minecraft.Minecraft.create('10.15.0.194')
+mc =minecraft.Minecraft.create()
 
 while True:
     chats=mc.events.pollChatPosts()
