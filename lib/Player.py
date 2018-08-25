@@ -20,3 +20,4 @@ class MinePLayer ():
     sc = self.conn
     x,y,z = sc.entity.getPos(self.id)
     x1, y1, z1 = sc.entity.getDirection(self.id)
+    return (x + x1 * length, y + y1* length, z +z1*length )

@@ -51,6 +51,7 @@ def island (mc,x,y,z):
     mc.setBlocks(x+6,y-3,z-4,x+6,y,z+4,9)
     mc.setBlocks(x-4,y-3,z-6,x-4,y,z-6,9)
     mc.setBlocks(x+4,y-3,z+6,x+4,y,z+6,9)
-    mc.setBlocks(x+4,y-1,z+5,x+6,y+1,z+7,1)
+    mc.setBlocks(x-1,y-1,z-1,x+1,y+1,z+1,2)
+    treeKien(mc,x-2,y+2,z-2)
 
 #fix lỗi

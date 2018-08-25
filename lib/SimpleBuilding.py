@@ -10,3 +10,4 @@ def Lhouse(mc,x,y,z):
     Goods.door(mc,x+10,y,z+1)
     mc.setBlocks(x+1,y,z-9,x+9,y+5,z-9,47)
 
+
