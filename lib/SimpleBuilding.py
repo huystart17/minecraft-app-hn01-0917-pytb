@@ -8,3 +8,5 @@ def Lhouse(mc,x,y,z):
     Goods.bed(mc,x+9,y,z+8)
     Goods.table(mc,x+3,y,z+3)
     Goods.door(mc,x+10,y,z+1)
+    mc.setBlocks(x+1,y,z-9,x+9,y+5,z-9,47)
+
