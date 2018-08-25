@@ -19,6 +19,7 @@ def treeKien(mc,x,y,z):
     mc.setBlock(x+1,y+6,z+3,0)
     mc.setBlock(x+3,y+6,z+3,0)
     mc.setBlocks(x+2,y,z+2,x+2,y+4,z+2,17)
+
 def lake(mc,x,y,z):
 #Dirt
     mc.setBlocks(x,y+10,z,x+20,y+10,z+20,2)
@@ -30,8 +31,6 @@ def lake(mc,x,y,z):
     mc.setBlocks(x+14,y+10,z+6,x+6,y+10,z+6,8)
     mc.setBlocks(x+15,y+10,z+7,x+5,y+10,z+7,8)
     mc.setBlocks(x+16,y+10,z+8,x+4,y+10,z+8,8)
-    
-
 
 def volcano(mc,x,y,z):
     for i in range(16):
@@ -54,4 +53,7 @@ def island (mc,x,y,z):
     mc.setBlocks(x-1,y-1,z-1,x+1,y+1,z+1,2)
     treeKien(mc,x-2,y+2,z-2)
 
-#fix lỗi
+def waterfall (mc,x,y,z):
+    mc.setBlocks(x-6,y,z,x+6,y+12,z+3,2)
+    mc.setBlocks(x-4,y,z-1,x+4,y+7,z-1,2)
+    mc.setBlocks(x-3,y+12,z,x+3,y+12,z,8)
