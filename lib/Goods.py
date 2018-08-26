@@ -19,3 +19,13 @@ def table(mc,x,y,z):
 
 def fence_z (mc,x,y,z):
     mc.setBlocks(x,y,z,x,y,z+10,113 )
+
+def lavapool(mc,x,y,z):
+    mc.setBlocks(x-5,y-5,z-5,x+1,y,z+1,1)
+    mc.setBlocks(x-4,y-4,z-4,x,y-1,z,10)
+    mc.setBlocks(x-2,y+1,z-2,46)
+
+def beacon(mc,x,y,z):
+    mc.setBlocks(x-1,y,z-1,x+1,y,z+1,57)
+    mc.setBlock(x,y+1,z,138)
+
